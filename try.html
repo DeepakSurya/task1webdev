@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Document</title>
+    <style>
+   
+#a {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    margin-left: 10px;
+    color:greenyellow;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    transition: opacity 0.5s;  
+  animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: normal ;
+  animation-timing-function: linear;
+
+
+}
+#b{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    margin-left: 10px;
+    color:greenyellow;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    transition: opacity 0.5s;
+  
+  animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse ;
+ 
+  animation-timing-function: linear;
+}
+
+
+@keyframes example {
+  from {margin-left: 30%;}
+  to {margin-left: 70%;}
+}
+body{
+  background-color: aqua;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+    </style>
+</head>
+<body>
+   <div>
+    <div id="a"></div>
+    <div id="b"></div>
+
+   </div>       
+    
+    kghfhgf
+    <button onclick="stop()">Stop</button>
+    <button onclick="start()">Start</button>
+
+<p></p>
+    <script src="try.js"></script>
+</body>
+</html>

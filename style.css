@@ -1,0 +1,164 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+body {
+  background-color: #333232;
+  font-family: sans-serif;
+
+  background-image: url("https://images.unsplash.com/photo-1572425914445-addf19106140?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+}
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid gray;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: greenyellow;
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+  transition: opacity 0.5s;
+  position: relative;
+}
+.box1 {
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;
+}
+
+.box2 {
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-in;
+  animation-fill-mode: backwards;
+}
+
+.container1 {
+  display: flex;
+  padding: 10px;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+.container2 {
+  display: flex;
+  float: center;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.container3 {
+  display: flex;
+  float: center;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.container4 {
+  display: flex;
+  float: center;
+  padding: 10px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+}
+
+.container {
+  border: 2px solid whitesmoke;
+  height: 50%;
+  width: 50%;
+  margin: auto;
+}
+
+.header {
+  color: white;
+  margin-left: 900px;
+  display: flex;
+  border: solid 4px white;
+  height: 150px;
+  width: 400px;
+  padding-left: 80px;
+}
+
+a {
+  color: whitesmoke;
+}
+
+#time {
+  margin: 20px;
+  padding: 40px;
+}
+
+.intro {
+  color: whitesmoke;
+  display: flex;
+  margin-left: 100px;
+}
+#newGame {
+  padding-left: 500px;
+}
+#score {
+  text-align: center;
+}
+#level {
+  margin-left: 250px;
+  display: flex;
+}
+#easy {
+  margin-right: 25px;
+}
+.show {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    color: white;
+    margin-left: 200px;
+    display: flex;
+    border: solid 2px white;
+    height: 150px;
+    width: 450px;
+    padding-left: 80px;
+    margin-right: 200px;
+  }
+  .intro {
+    color: whitesmoke;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+  }
+  #level {
+    margin-left: 100px;
+
+    display: flex;
+  }
+  .container {
+    border: 2px solid whitesmoke;
+    height: 50%;
+    width: 90%;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  #newgame {
+    margin-right: 600px;
+    padding-top: 100px;
+    padding-left: 0px;
+    display: flex;
+  }
+
+  body {
+    background-color: #333232;
+    font-family: sans-serif;
+
+    background-image: url("https://images.unsplash.com/photo-1572425914445-addf19106140?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+  }
+}
+
